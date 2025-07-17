@@ -13,8 +13,8 @@
   "dialogs": [
     "dwp:plb",
     "dwp:sqm",
-		"dwp:cmd",
-		"dwp:vt_iif",
+    "dwp:cmd",
+    "dwp:vt_iif",
     "dwp:vt_nc"
   ]
 }
