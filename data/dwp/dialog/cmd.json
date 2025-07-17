@@ -15,7 +15,7 @@
 	"body": [
 		{
 			"type": "plain_message",
-			"contents": "Here you can find some handy commands when playing on the server\n"
+			"contents": "Here are some helpful commands to make your experience on the server better.\n"
 		}
 	],
 	"actions": [

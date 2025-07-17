@@ -15,7 +15,7 @@
 	"body": [
 		{
 			"type": "plain_message",
-			"contents": "Make a item frame to a invisible itemframe. To do this, look at a item frame, go into this menu again and click on convert down below.\n"
+			"contents": "To make an item frame invisible, look at the item frame, open this menu again, and click 'Convert' below.\n"
 		}
 	],
 	"actions": [

@@ -15,7 +15,7 @@
   "body": [
     {
       "type": "plain_message",
-      "contents": "Here you can calculate the coordinates of your current position in a world, to a portal in the other.\n"
+      "contents": "Use this tool to convert your current coordinates in one world to the portal coordinates in the other world.\n"
     }
   ],
   "actions": [

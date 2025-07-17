@@ -3,7 +3,7 @@
   "title": "DWP Server",
   "body": {
     "type": "minecraft:plain_message",
-    "contents": "Welcome to the DWP Player Settings!\n\nHere you can adjust various settings related to your player experience on the DWP Server.\n\nPlease select an option below to continue.\n\n"
+    "contents": "Welcome to the DWP Player Settings! \n\nHere, you can fine-tune your player settings to enhance your experience on the DWP Server. \n\nChoose an option below to continue.\n"
   },
   "can_close_with_escape": true,
   "pause": false,

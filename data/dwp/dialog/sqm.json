@@ -15,7 +15,7 @@
 	"body": [
 		{
 			"type": "plain_message",
-			"contents": "Do you want to hide or show yourself from the map?\n"
+			"contents": "Do you want to appear on the map, or would you prefer to stay hidden?\n"
 		}
 	],
 	"actions": [
