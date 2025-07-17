@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "DWP Settings > Nether Portal Coordinates Caluclator",
+  "external_title": "Portal Coords. Caluclator",
+  "can_close_with_escape": false,
+  "pause": false,
+  "after_action": "close",
+  "exit_action": {
+    "label": "Done",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "dwp:main"
+    }
+  },
+  "body": [
+    {
+      "type": "plain_message",
+      "contents": "Here you can calculate the coordinates of your current position in a world, to a portal in the other.\n"
+    }
+  ],
+  "actions": [
+    {
+      "label": "Overworld to Nether",
+      "action": {
+        "type": "run_command",
+        "command": "trigger nc_inOverworld"
+      }
+    },
+    {
+      "label": "Nether to Overworld",
+      "action": {
+        "type": "run_command",
+        "command": "trigger nc_inNether"
+      }
+    }
+  ]
+}
