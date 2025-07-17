@@ -1,0 +1,37 @@
+{
+	"type": "minecraft:multi_action",
+	"title": "DWP Settings > SquareMap Settings",
+	"external_title": "SquareMap Settings",
+	"can_close_with_escape": false,
+	"pause": false,
+	"after_action": "close",
+	"exit_action": {
+    "label": "Done",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "dwp:main"
+    }
+  },
+	"body": [
+		{
+			"type": "plain_message",
+			"contents": "Do you want to hide or show yourself from the map?\n"
+		}
+	],
+	"actions": [
+		{
+			"label": "Hide from Map",
+			"action": {
+				"type": "run_command",
+				"command": "map hide"
+			}
+		},
+		{
+			"label": "Show on Map",
+			"action": {
+				"type": "run_command",
+				"command": "map show"
+			}
+		}
+	]
+}

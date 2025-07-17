@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "DWP Server",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "Welcome to the DWP Player Settings!\n\nHere you can adjust various settings related to your player experience on the DWP Server.\n\nPlease select an option below to continue."
+  },
+  "can_close_with_escape": true,
+  "pause": false,
+  "exit_action": {
+    "label": "Done"
+  },
+  "dialogs": [
+    "dwp:plb",
+    "dwp:sqm",
+		"dwp:vt_iif"
+  ]
+}

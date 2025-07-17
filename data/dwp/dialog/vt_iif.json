@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:multi_action",
+	"title": "DWP Settings > Invisible Item Frames",
+	"external_title": "Invisible Item Frames",
+	"can_close_with_escape": false,
+	"pause": false,
+	"after_action": "close",
+	"exit_action": {
+    "label": "Done",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "dwp:main"
+    }
+  },
+	"body": [
+		{
+			"type": "plain_message",
+			"contents": "Make a item frame to a invisible itemframe. To do this, look at a item frame, go into this menu again and click on convert down below.\n"
+		}
+	],
+	"actions": [
+		{
+			"label": "Convert to Invisible Item Frame",
+			"action": {
+				"type": "run_command",
+				"command": "trigger if_invisible"
+			}
+		}
+	]
+}
