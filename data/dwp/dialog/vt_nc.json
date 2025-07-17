@@ -1,7 +1,7 @@
 {
   "type": "minecraft:multi_action",
-  "title": "DWP Settings > Nether Portal Coordinates Caluclator",
-  "external_title": "Portal Coords. Caluclator",
+  "title": "DWP Settings > Nether Portal Coordinates Calculator",
+  "external_title": "Portal Coords. Calculator",
   "can_close_with_escape": false,
   "pause": false,
   "after_action": "close",
