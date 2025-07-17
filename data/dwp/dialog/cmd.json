@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:multi_action",
+	"title": "DWP Settings > Quick Access Commands",
+	"external_title": "Quick Access Commands",
+	"can_close_with_escape": false,
+	"pause": false,
+	"after_action": "close",
+	"exit_action": {
+    "label": "Done",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "dwp:main"
+    }
+  },
+	"body": [
+		{
+			"type": "plain_message",
+			"contents": "Here you can find some handy commands when playing on the server\n"
+		}
+	],
+	"actions": [
+		{
+			"label": "Sit",
+			"action": {
+				"type": "run_command",
+				"command": "sit"
+			}
+		}
+	]
+}
