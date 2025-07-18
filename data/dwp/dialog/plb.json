@@ -30,13 +30,6 @@
         "type": "run_command",
         "command": "trigger dwp_plb_toggle_bar"
       }
-    },
-		    {
-      "label": "View Current Settings",
-      "action": {
-        "type": "run_command",
-        "command": "trigger dwp_plb_get_settings"
-      }
     }
   ]
 }

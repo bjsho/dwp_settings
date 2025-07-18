@@ -24,11 +24,3 @@ execute as @a if score @s dwp_plb_toggle_bar matches 1.. run attribute @s minecr
 execute as @a if score @s dwp_plb_toggle_bar matches 2.. run scoreboard players set @s dwp_plb_toggle_bar 0
 execute as @a if score @s dwp_plb_toggle_bar matches ..0 run attribute @s minecraft:waypoint_receive_range base set 60000000
 
-
-# Show settings
-execute as @a[scores={dwp_plb_get_settings=1..}] if score @s dwp_plb_toggle_bar matches 1 run tellraw @p [{"color":"white","text":" Locatorbar: "},{"color":"red","text":"false"}]
-execute as @a[scores={dwp_plb_get_settings=1..}] if score @s dwp_plb_toggle_bar matches 0 run tellraw @p [{"color":"white","text":" Locatorbar: "},{"color":"green","text":"true"}]
-execute as @a[scores={dwp_plb_get_settings=1..}] if score @s dwp_plb_toggle matches 1 run tellraw @p [{"color":"white","text":" Location: "},{"color":"red","text":"Hidden"}]
-execute as @a[scores={dwp_plb_get_settings=1..}] if score @s dwp_plb_toggle matches 0 run tellraw @p [{"color":"white","text":" Location: "},{"color":"green","text":"Shown"}]
-
-execute as @a[scores={dwp_plb_get_settings=1..}] run scoreboard players set @s dwp_plb_get_settings 0
