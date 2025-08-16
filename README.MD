@@ -16,7 +16,7 @@ This datapack provides customisable settings for the DWP SMP, allowing you to ea
 
 ## Compatibility
 
-- Minecraft Java Edition 1.21.7 (replace XX with your version)
+- Minecraft Java Edition 1.21.7
 - /sit commands
 - SquareMap mod
 - VanillaTweaks: Invisible Item Frames and Nether Portal Coords
