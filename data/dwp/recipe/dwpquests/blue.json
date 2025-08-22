@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:amethyst_shard"
+    },
+    "result": {
+	"id": "minecraft:amethyst_shard",
+        "count": 1,
+	"components": {
+		"item_name": "{\"text\": \"DWP Quest\"}",
+		 "custom_model_data": 1001
+	}
+     }
+}
